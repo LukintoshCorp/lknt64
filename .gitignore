@@ -1,0 +1,45 @@
+# Build / synthesis / temp
+*.log
+*.out
+*.vcd
+*.fst
+*.svf
+*.jou
+
+# OpenLane
+openlane/*/runs/
+openlane/*/tmp/
+openlane/*/reports/
+openlane/*/results/
+openlane/*/spef/
+openlane/*/gds/
+openlane/*/lef/
+openlane/*/mag/
+
+# Caravel build outputs
+caravel/build/
+caravel/openlane/*/runs/
+caravel/openlane/*/tmp/
+caravel/openlane/*/results/
+caravel/openlane/*/reports/
+
+# ModelSim / QuestaSim
+work/
+transcript
+vsim.wlf
+
+# Vivado / Quartus
+*.qsf
+*.sdc
+*.rpt
+incremental_db/
+db/
+simulation/
+output_files/
+
+# MacOS lixo
+.DS_Store
+
+# Editor temporários
+*.swp
+*~
