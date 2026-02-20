@@ -1,0 +1,15 @@
+project:
+  name: "LKNT64-8core"
+  owner: "Lukintosh Research"
+  description: "CPU LKNT64 8 núcleos 64-bit — projeto open-source para SkyWater MPW (130nm)"
+  foundry: "SkyWater"
+  process: "SKY130"
+  organization: "Lukintosh"
+  github: "https://github.com/SEU_USER/lknt64"
+  tags:
+    - cpu
+    - 64bit
+    - architecture
+    - lknt64
+    - sky130
+    - openlane
